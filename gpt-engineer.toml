@@ -1,0 +1,12 @@
+[project]
+base_dir = "."           # base directory to operate in (for monorepos)
+src_dir = "./src"        # source directory (under the base directory) from which context will be retrieved
+
+[run]
+build = "npm run build"
+test = "npm run test"
+lint = "quick-lint-js"
+
+[gptengineer-app]
+project_id = "00b02e23-9a85-41cd-88c7-e446e3e49136"
+openapi = []
